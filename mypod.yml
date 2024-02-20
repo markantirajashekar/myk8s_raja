@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-    name: hello-pod
+    name: raja-pod
 spec:
   containers:
-    - name: first-container
+    - name: raja-container
       image: nginx
       ports: 
-        - containersPort: 80
+        - containerPort: 80
